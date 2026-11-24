@@ -1,0 +1,57 @@
+# ===== Unity =====
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+[Mm]ono[Cc]rash[Dd]umps/
+
+# ===== Unity 自动生成的工程文件（每台机器不同，不要提交）=====
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.vspscc
+*.buildinfo
+
+# ===== 构建产物 =====
+*.apk
+*.aab
+*.unitypackage
+*.app
+Builds/
+Build/
+
+# ===== IDE / 系统 =====
+.vs/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ===== 临时 / 备份 =====
+*~
+*.tmp
+*.bak
+*.blend1
+*.orig
+*.rej
+
+# ===== 大文件走 LFS（见 .gitattributes），此处兜底 =====
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.exr filter=lfs diff=lfs merge=lfs -text
+*.psd filter=lfs diff=lfs merge=lfs -text
